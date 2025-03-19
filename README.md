@@ -1,2 +1,5 @@
 # QoS_MIDER
-This repository contains the Dataset and NS3 code used to generate the data for our analysis presented in the paper Titled "Optimizing QoS in Wireless IoT Networks: A Cross-Layer based Experimental Study"".
+This repository contains the Dataset and NS3 code used to generate the data for our analysis presented in the paper Titled "Optimizing QoS in Wireless IoT Networks: A Cross-Layer based Experimental Study"". The paper is accepted in for publication in IEEE CAMAD 2024 and will appear in the IEEE Xplore in matter of days. 
+
+Details of Dataset
+The dataset was collected using NS3 simulation of an Industrial IoT network with diverse applications deployed in it. The applications were mimicking IIoT use cases like Production Line Monitoring, Sensor Updates, Surveillance, Automated Guided Vehicles (AGVs) and general data communicaiton. The data comprises of three files for throughput, latency, and packet loss along with OSI layer parameters Contention Window, MCS, Transmit Power, Ack timeout, and Queue Size. The data can be used with MIDER tool (in MATLAB) to perform a cros layer design parameters study to find inter-dependencies and relationships between parameters. They can eventually be used for cross layer based Network Optimization.  
